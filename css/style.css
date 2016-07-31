@@ -1,0 +1,119 @@
+
+body {
+  font-family: "Avenir Next", Verdana, "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "游ゴシック", "Yu Gothic", "メイリオ", Meiryo, Osaka, sans-serif;
+  color: #ffffff;
+  opacity: 0.8;
+}
+
+
+/* logo */
+.yamotech {
+  position: absolute;
+  right: -15px;
+  bottom: 4%;
+  cursor: pointer;
+}
+
+.yamotech:hover {
+  opacity: 0.5;
+}
+
+
+/* link */
+.link {
+  position: absolute;
+  top: 3%;
+  right: 1%;
+}
+
+.link > a:hover {
+  opacity: 0.5;
+}
+
+.link > a > i {
+  margin-bottom: 8px;
+}
+
+.link > a > img {
+  margin-left: 5px;
+  margin-bottom: 2px;
+}
+
+.yurue {
+  width: 32px;
+  height: 32px;
+}
+
+.fa {
+  color: #ffffff;
+}
+
+.fa-github,
+.fa-facebook-official {
+  margin-left: 7px;
+}
+
+.fa-envelope {
+  margin-left: 4px;
+  margin-top: -5px;
+}
+
+
+/* profile */
+.profile {
+  width: 100%;
+  margin: 0 auto;
+}
+
+.profile-left,
+.profile-right {
+  width: 100%;
+  margin-bottom: 3%;
+  padding-left: 10%;
+}
+
+.profile-left > h3,
+.profile-right > h3 {
+  color: #999999;
+}
+
+
+/* footer */
+footer {
+  position: absolute;
+  right: 3%;
+  bottom: 0%;
+}
+
+
+@media screen and (min-width: 600px) {
+  /* profile */
+  .profile {
+    width: 80%;
+  }
+}
+
+
+@media screen and (min-width: 960px) {
+  /* logo */
+  .yamotech {
+    right: 0;
+    bottom: 2%;
+  }
+
+
+  /* profile */
+  .profile-left,
+  .profile-right {
+    float: left;
+    width: 40%;
+    margin-top: 3%;
+  }
+
+
+  /* footer */
+  footer {
+    left: 1%;
+    bottom: 1%;
+  }
+}
