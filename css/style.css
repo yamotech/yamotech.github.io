@@ -12,6 +12,7 @@ body {
   right: -15px;
   bottom: 4%;
   cursor: pointer;
+  z-index: 1;
 }
 
 .yamotech:hover {
